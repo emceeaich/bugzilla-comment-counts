@@ -1,14 +1,16 @@
 {
-  "name": "comment_counts",
+  "name": "comment-counts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Emma Humphries",
-  "license": "ISC",
+  "bin": {
+    "comment-counts": "cli.js"
+  },
+  "author": "Emma Humphries <ech@emmah.net>",
+  "license": "MPL-2.0",
   "dependencies": {
     "make-fetch-happen": "^2.6.0",
     "moment": "^2.20.0",
