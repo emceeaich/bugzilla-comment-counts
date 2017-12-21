@@ -1,7 +1,7 @@
 {
   "name": "comment-counts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Compute the top 10 bugs in terms of new comments over a period of time (default of one week)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,18 @@
     "make-fetch-happen": "^2.6.0",
     "moment": "^2.20.0",
     "optimist": "^0.6.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emceeaich/bugzilla-comment-counts.git"
+  },
+  "keywords": [
+    "bugzilla",
+    "mozilla"
+  ],
+  "bugs": {
+    "url": "https://github.com/emceeaich/bugzilla-comment-counts/issues"
+  },
+  "homepage": "https://github.com/emceeaich/bugzilla-comment-counts#readme"
 }
