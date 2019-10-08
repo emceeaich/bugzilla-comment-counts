@@ -12,9 +12,9 @@
   "author": "Emma Humphries <ech@emmah.net>",
   "license": "MPL-2.0",
   "dependencies": {
-    "make-fetch-happen": "^2.6.0",
-    "moment": "^2.20.0",
-    "optimist": "^0.6.1"
+    "make-fetch-happen": ">=2.6.0",
+    "moment": ">=2.20.0",
+    "optimist": ">=0.6.1"
   },
   "devDependencies": {},
   "repository": {
